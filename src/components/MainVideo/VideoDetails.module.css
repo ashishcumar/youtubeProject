@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainVideoContainer{
+   width: 100%;
+   margin: auto;
+}
+.iframe{
+    width: 100%;
+    height: 65vh;
+}
+
+
+.videoTitle{
+    font-size: calc(16px + 0.5vw);
+}
+.viewsDate{
+    margin: 20px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(102, 100, 100);
+
+}
+
+.viewsDate p {
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.viewsDate p span{
+    color: black;
+    font-size: 16px;
+}
+
+.icons{
+    margin: 0px 5px;
+    font-weight: lighter;
+}
+
+.icons:hover{
+    color: black;
+}
+.loremtext{
+    font-size: 17px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .youtubeICon{
+  height: 100px;
+  width: 200px;
+  align-items: center;
+  margin: auto;
+  display: block;
+} 
+
+
+.loremtextContent{
+    margin: 5px 10px ;
+    text-align: left;
+}
+
+.profilePic{
+    height:4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.profilePicContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilePictextBox{
+    display:flex;
+    align-items: center;
+}
+
+.description{
+    width: 80%;
+    
+}
+
+@media screen and (max-width:600px) {
+    .viewsDate{
+        display: block;
+    }
+    .viewsDate p span{
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+    .viewsDate p{
+        flex-wrap: wrap;
+        font-size: 15px;
+    }
+    .loremtext{
+        display: block;
+    }
+    .loremtextContent{
+        width: 100%;
+        font-size: 16px;
+    }
+    .iframe{
+        height: 50vh;
+    }
+    .profilePicContainer{
+        display: block;
+    }
+    .youtubeICon{
+        margin: 0;
+    }
+}
+
+ @media screen and (max-width:450px) {
+    .iframe{
+        height: 45vh;
+    }
+ }

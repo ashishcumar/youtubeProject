@@ -1,0 +1,33 @@
+.SearchBarAppContainer{
+    padding: 5px 0;
+}
+
+.mainVideoAppContainer{
+    width: 60%;
+}
+
+.mainANdsideAppContainer{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.videolist_AppContainer{
+    width: 35%;
+}
+@media screen and (max-width:950px) {
+    .mainANdsideAppContainer{
+        flex-direction: column;
+        width: 90%;
+    }
+    .mainVideoAppContainer{
+        width: 100%;
+    }
+    .videolist_AppContainer{
+        width: 100%;
+    }  
+
+}
+
+

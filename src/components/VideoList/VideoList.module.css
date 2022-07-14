@@ -1,0 +1,37 @@
+.trending{
+    display:flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.trendingItems,.trendingItems1{
+    border: 1px solid lightslategrey;
+    padding: 2px 5px;
+    border-radius: 15px;
+    margin: 0px 3px;
+    background-color:#ECECEC;
+}
+
+.trendingItems:hover{
+    background-color:#ccc9c9;
+
+}
+
+.trendingItems1{
+    background-color: black;
+    color: white;
+}
+
+
+@media screen and (max-width:950px) {
+    .listContainer{
+        width: 100%;
+    }
+    .trending{
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+    .trending span{
+        margin: 3px;
+    }
+}

@@ -1,0 +1,79 @@
+.SearchBarContainer{
+    font-size: 48px;
+    width: 60%;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchBarContainer form{
+ padding: 5px 15px;
+ width: 80%;
+ margin: auto;
+}
+
+.textField{
+    width: 80%;
+}
+
+.searchIcon{
+    padding: 0.3vw;
+}
+
+.navbar{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 2px lightslategray;
+    margin-bottom: 20px ;
+}
+
+.menuIcon{
+    margin: 0px 10px;
+}
+
+.ytIcon{
+    height: 40px;
+}
+
+.navbar_left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_right{
+    width: 200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_right_A{
+    font-size: 24px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-content: center;
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .navbar_right{
+justify-content: flex-start;
+width: fit-content;
+margin-right:3px ;
+    }
+    .menuIcon{
+        margin: 0px 5px;
+    }
+    
+    .ytIcon{
+        height: 30px;
+    }
+    
+}

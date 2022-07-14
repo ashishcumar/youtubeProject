@@ -1,0 +1,33 @@
+
+.sideVideo{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sideVideo img{
+    width: 50%;
+    margin: 5px ;
+    
+}
+
+.sideVideo b{
+    font-size:14px;
+    margin: 3px;
+    width: 50%;
+}
+
+.sideVideo b p{
+    color: rgb(80, 80, 80);
+    margin: 2px;
+}
+
+@media screen and (max-width:950px) {
+    .sideVideo{
+        width:100%;
+        box-shadow: 0px 0px 2px lightslategray;
+        margin: 5px 0;
+    }
+
+
+}
