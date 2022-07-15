@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ashishcumar.github.io/youtubeProject/static/css/main.b5e5d3d1.css",
+    "main.js": "/ashishcumar.github.io/youtubeProject/static/js/main.fd15e88c.js",
+    "index.html": "/ashishcumar.github.io/youtubeProject/index.html",
+    "main.b5e5d3d1.css.map": "/ashishcumar.github.io/youtubeProject/static/css/main.b5e5d3d1.css.map",
+    "main.fd15e88c.js.map": "/ashishcumar.github.io/youtubeProject/static/js/main.fd15e88c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5e5d3d1.css",
+    "static/js/main.fd15e88c.js"
+  ]
+}
